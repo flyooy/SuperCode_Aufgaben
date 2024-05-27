@@ -51,3 +51,60 @@ section a{
 section a:hover{
     color: blueviolet;
 }
+
+main div{
+position: absolute;
+width: 1340px;
+height: 280px;
+left: 50px;
+top: 840.41px;
+background: #FCF5B0;
+border-radius: 40px;
+}
+main div::after{
+    content: "";
+    position: absolute;
+    width:1220px;
+    height: 20px;
+    color: red;
+    border-bottom: 5px solid rgb(144, 11, 11);
+    display:block;
+    top: 220.41px;
+    right: 55px;
+}
+
+main div p{
+position: absolute;
+width: 400.07px;
+height: 75px;
+left: 131px;
+top: 63px;
+
+font-family: 'Courier Prime,Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+align-items: center;
+color: #000000;
+}
+
+main div input{
+border: none; 
+background-color: #FCF5B0; 
+font-family: 'Courier Prime, Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+color: #000000;
+}
+main div p::first-letter{
+    display: inline-block;
+    border: 2px solid black; 
+    padding: 1px; 
+    margin-right: 5px; 
+    background-color: #FCF5B0; 
+    font-size: 1.2em; 
+}
+main div input:focus {
+    outline: none; 
+    background-color: #FCF5B0; }
