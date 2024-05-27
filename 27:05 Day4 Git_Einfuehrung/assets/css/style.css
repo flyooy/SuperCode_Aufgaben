@@ -31,3 +31,23 @@ border-radius: 20px;
 img:hover {
     transform: scale(1.1);
 }
+
+section{
+position: absolute;
+width: 485px;
+height: 122.91px;
+left: calc(50% - 485px/2);
+top: 690.5px;
+}
+section h2{
+    margin-bottom: 15px;
+}
+section p{
+    margin-bottom: 15px;
+}
+section a{
+    text-decoration: none;
+}
+section a:hover{
+    color: blueviolet;
+}
