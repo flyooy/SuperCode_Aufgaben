@@ -3,23 +3,25 @@
     padding:0;
 }
 
-div {
-    width: 1440px;
-    height: 211.75px;
+header div {
+    width: 100%;
+    height: 171.75px;
     background-color:#36B5B0;
 
 }
 
-h1{
+header h1{
     text-align: center;
     padding: 80px;
+    text-shadow: 2px 2px 2px white;
+   
 }
 
-h1:hover{
-    transform: rotate(25deg);
+header h1:hover{
+    transform: rotate(-15deg);
 }
 
-img{
+main img{
     position: absolute;
 width: 505px;
 height: 410px;
@@ -30,11 +32,11 @@ border-radius: 20px;
 
 }
 
-img:hover {
+main img:hover {
     transform: scale(1.1);
 }
 
-section{
+main section{
 position: absolute;
 width: 485px;
 height: 122.91px;
@@ -42,30 +44,32 @@ left: calc(50% - 485px/2);
 top: 690.5px;
 }
 
-section h2{
+main section h2{
     margin-bottom: 15px;
 }
 
-section p{
+main section p{
     margin-bottom: 15px;
 }
 
-section a{
+main section a{
     text-decoration: none;
 }
 
-section a:hover{
+main section a:hover{
     color: blueviolet;
 }
 
 main div{
 position: absolute;
-width: 1340px;
+max-width: 1340px;
+width: 90%;
 height: 280px;
-left: 50px;
+left: 50%;
 top: 840.41px;
 background: #FCF5B0;
 border-radius: 40px;
+transform: translateX(-50%);
 }
 
 main div::after{
@@ -77,7 +81,7 @@ main div::after{
     border-bottom: 5px solid rgb(144, 11, 11);
     display:block;
     top: 220.41px;
-    right: 55px;
+    right: 35px;
 }
 
 main div p{
@@ -121,7 +125,7 @@ main div input:focus {
 
 footer{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 131px;
     background-color: #9DD8C8;
     top: 1253px;
