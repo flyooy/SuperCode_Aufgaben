@@ -1,0 +1,96 @@
+<!-- So machen wir ein Kommentar Cmd + Shift + 7 -->
+<!-- mit Opt + Z kann man ein Zeilenumbruch erzwingen -->
+
+<!DOCTYPE html>
+<!-- ! Hier kann ich die Sprache der Seite abändern de = Deutsch  -->
+<html lang="de">
+  <!-- ! Im <head> Kommen alle Meta informationen rein -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ! Hier können wir den titel der seite Beschreiben -->
+    <title>Semantischs HTML und Listen</title>
+  </head>
+
+  <!-- ! body -> hier kommt der Content rein! -->
+  <body>
+    <header>
+      <nav>
+        <!-- ein <a> schickt dich auf einen neuen Link -->
+        <!-- * Eine rleativer Pfad fängt immer mit ./ an (man muss auch in die ordner rein navigieren)  -->
+        <a href="./kontakt/kontakt.html">Kontakt</a>
+        <a href="./price/price.html">Price</a>
+        <!-- * Ein Absoluter Pfad -->
+        <!-- mit target="_blank" öffnet sich ein neues Tab -->
+        <a href="https://www.super-code.de/" target="_blank">supercode</a>
+      </nav>
+    </header>
+    <main>
+      <!-- # Überschriften -->
+      <!-- Es gibt 6 überschirften im HTML <h1> bis <h6> -->
+      <!-- Eine h1 sollte nur 1x je page auftauchen -->
+      <h1>Ich bin eine h1</h1>
+      <h2>Ich bin eine h2</h2>
+      <h3>Ich bin eine h3</h3>
+      <h4>Ich bin eine h4</h4>
+      <h5>Ich bin eine h5</h5>
+      <h6>Ich bin eine h6</h6>
+
+      <!-- # Ich bin ein <p> Tag für lange texte -->
+      <p>Hallo leute ich bin der Marzio und bin 31 Jahre alt</p>
+
+      <!-- # Listen in HTML -->
+      <!-- - ul => unordert List  -->
+      <!-- - ol => orderd List -->
+      <!-- - li => list item - Benötigen wir immer in eine Liste, egal ob ul oder ol -->
+
+      <!-- Unordert List -->
+      <h4>Unordert List</h4>
+      <ul>
+        <li>Vittorio</li>
+        <li>Deng</li>
+        <li>Andreas</li>
+      </ul>
+
+      <!-- Orderd List -->
+      <h4>Ordert List</h4>
+      <ol>
+        <li>Vittorio</li>
+        <li>Deng</li>
+        <li>Andreas</li>
+      </ol>
+
+      <!-- Mix aus ul und ol -->
+      <h4>Mix ol und ul</h4>
+      <ul>
+        <h4>Einkaufsliste (ul)</h4>
+        <li>Eier</li>
+        <li>Milch</li>
+        <li>Wasser</li>
+        <ol>
+          <li>Kochen</li>
+          <li>Gym gehen</li>
+          <li>Unterricht vorbereiten für morgen</li>
+        </ol>
+        <li>Brot</li>
+        <li>Käse</li>
+      </ul>
+    </main>
+    <footer>
+      <section>
+        <!-- # Bilder in HTML -->
+        <!-- "src" => hier kommt die bild qulle hin -->
+        <!-- "alt" => alt steht für alternativ text, sollte das bild grob beschreiben -->
+
+        <!-- *Absoluter Pfad -->
+        <img
+          src="https://cdn.pixabay.com/photo/2024/01/15/21/16/dog-8510901_1280.jpg"
+          alt="Hundbaby auf den rasen"
+        />
+
+        <!-- * Relative Pfad -->
+        <img src="./assets/doggo.jpg" alt="Bild von hund" />
+      </section>
+    </footer>
+  </body>
+</html>

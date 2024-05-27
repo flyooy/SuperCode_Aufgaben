@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+  
+div {
+  background-image: url("../img/photo-1716199287176-90597a25c74a.avif");
+  text-align: center;
+  width:100vw;
+  height: 100vh;
+  background-size:cover;
+}
+p{
+  background-color: gray;
+
+
+padding: 30px;
+margin: 50vh auto;
+text-align: center;
+font-size: 45px;
+
+white-space: nowrap;
+display:inline-block;
+}
+
+img{
+  
+  width: 100vh;
+  display:block;
+  
+}

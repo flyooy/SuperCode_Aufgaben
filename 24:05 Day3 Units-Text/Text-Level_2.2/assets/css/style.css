@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Chelsea_Market;
+    src:url("../font/Chelsea_Market/ChelseaMarket-Regular.ttf");
+}
+html{
+    font-family: 'Chelsea_Market','Arial';
+}
+h1{
+    font-size: 44px;
+    background-color: green;
+    height: 80px;
+    text-align:justify;
+    
+}
+p{
+    line-height:44px;
+    font-size:12px;
+
+    
+}
+em{
+    text-shadow: 2px 3px red;
+}
+a{
+    text-decoration:none;
+}
+
+a:link{
+    color:black;
+}

@@ -1,0 +1,21 @@
+div{
+    
+    width: 450px; /* Установка ширины */
+    padding: 20px; /* Установка внутреннего отступа */
+    
+    outline: 3px solid gray;
+    margin: 25px; 
+   
+    background-color: white;
+    
+}
+p{
+    
+    width: 380px; /* Установка ширины */
+    padding: 5px; 
+    border: 6px solid black; /* Установка границы */
+    background-color: aquamarine;
+    margin: 25px; 
+  
+    
+}

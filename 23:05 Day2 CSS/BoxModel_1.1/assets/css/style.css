@@ -1,0 +1,8 @@
+p{
+    
+    width: 200px; /* Установка ширины */
+    padding: 25px; /* Установка внутреннего отступа */
+    border: 25px solid black; /* Установка границы */
+    margin: 25px auto; 
+    background-color: aquamarine;
+}

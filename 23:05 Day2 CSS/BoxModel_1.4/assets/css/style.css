@@ -1,0 +1,29 @@
+li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+    
+
+li::before {
+    content: "\2605"; /* Это значок звезды */
+    position: absolute;
+    color: red;
+    left: 0;
+    font-size: 20px;
+}
+div{
+    width: 200px;
+        height: 200px;
+        background-color: #9BC1BC;
+        border: 15px solid #F4F1BB; /* Основная граница */
+        box-shadow:40px 40px 40px #ED6A5A;
+        margin: 40px;
+        position: relative;
+        outline: 10px solid #546A7B;
+        
+}
+
+    
