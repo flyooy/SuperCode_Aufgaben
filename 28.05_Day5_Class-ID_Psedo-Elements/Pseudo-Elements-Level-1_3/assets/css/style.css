@@ -16,11 +16,12 @@
 .ErstP{
     text-decoration: line-through;
     margin-left: 370px;
-  
+    font-size: 20px;
+    
 }
 
 .ErstP::before{
-   content:  "\f1f8";
+   content:  url(/28.05_Day5_Class-ID_Psedo-Elements/Pseudo-Elements-Level-1_3/assets/img/no.png);
 }
 .ErstP::after{
     content: ">>";
@@ -31,19 +32,25 @@
     margin-left: 370px;
     background-color: aqua;
     width: 150px;
+    font-size: 20px;
   
 }
 .ZweiP::before{
     content:  "\f1f8";
 }
 .ZweiP::after{
-    content:  "||";
+    content:  url(/28.05_Day5_Class-ID_Psedo-Elements/Pseudo-Elements-Level-1_3/assets/img/check.png);
+    width: 15%;
+    height: 15%;
+    
 }
 
 .DreiP{
 
     text-decoration: underline;
     margin-left: 370px;
+    line-height:25px;
+    font-size: 20px;
 }
 
 .DreiP::before{
