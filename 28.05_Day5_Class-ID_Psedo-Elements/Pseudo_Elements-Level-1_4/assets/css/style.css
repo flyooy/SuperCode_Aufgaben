@@ -1,0 +1,19 @@
+.TextForm{
+    font-size: 15px;
+    border: 2px solid yellow;
+    
+}
+.TextForm::before{
+    content: "Info";
+    background-color: aqua;
+    font-weight: bold;
+}
+.TextForm::after{
+    content: "\2665";
+    color:aqua;
+}
+.TextForm::selection{
+    color:yellow;
+    background-color: yellowgreen;
+    text-decoration: underline;
+}

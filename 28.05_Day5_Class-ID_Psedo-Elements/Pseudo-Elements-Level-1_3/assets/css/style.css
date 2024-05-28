@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.TextForm{
+    margin:  320px 0 0 325px;
+    margin-bottom: 15px;
+}
+.TextForm::first-letter{
+    color:brown;
+}
+
+.ErstP{
+    text-decoration: line-through;
+    margin-left: 370px;
+  
+}
+
+.ErstP::before{
+   content:  "\f1f8";
+}
+.ErstP::after{
+    content: ">>";
+}
+
+.ZweiP{
+ 
+    margin-left: 370px;
+    background-color: aqua;
+    width: 150px;
+  
+}
+.ZweiP::before{
+    content:  "\f1f8";
+}
+.ZweiP::after{
+    content:  "||";
+}
+
+.DreiP{
+
+    text-decoration: underline;
+    margin-left: 370px;
+}
+
+.DreiP::before{
+    content:  "\f1f8";
+}
+.DreiP::after{
+    content:  "<<";
+}

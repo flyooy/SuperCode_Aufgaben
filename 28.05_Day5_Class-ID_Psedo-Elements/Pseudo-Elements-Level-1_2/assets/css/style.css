@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat_Medium;
+    src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+
+.bigFirstLetter{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    /* padding:8px; */
+}
+.bigFirstLetter::before {
+    /* content:attr(data-first-letter); */
+    font-size: 40px;
+    color: aqua;
+}
+.bigFirstLetter::after {
+    /* content: attr(data-rest); */
+}
+.bigFirstLetter:hover{
+    color: red;
+}
+.list_item{
+    margin-right: 12px;
+} 

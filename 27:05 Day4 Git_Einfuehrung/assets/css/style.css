@@ -1,6 +1,7 @@
-*{
+* {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 header div {
@@ -14,6 +15,7 @@ header h1{
     text-align: center;
     padding: 80px;
     text-shadow: 2px 2px 2px white;
+    transition: width 1s, height 1s, transform 1s;
    
 }
 
@@ -81,7 +83,7 @@ main div::after{
     border-bottom: 5px solid rgb(144, 11, 11);
     display:block;
     top: 220.41px;
-    right: 35px;
+    right: 30px;
 }
 
 main div p{
