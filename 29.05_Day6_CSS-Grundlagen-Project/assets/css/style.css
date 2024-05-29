@@ -29,14 +29,20 @@
     margin-top: 15px;
   }
 
-  nav a{
+  .nav-links{
     font-size: 12px;
-    margin: 20px;
-    padding: 5px;
-    color:#659D89;
+    margin: 19px;
+    padding: 0;
+   
   }
+  .nav-links a {
+    color:#659D89;
+    display: inline-block; /* Помещаем ссылки в блоки */
+    margin-bottom: 5px; /* Отступ между ссылками */
+    padding: 0 7px;
+}
 
-  nav a:hover{
+  .nav-links a:hover{
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
     
   }
@@ -56,7 +62,6 @@
   .foottext_2{
     font-weight: 400;
     margin-top: 5px;
-    
     letter-spacing: 2px;
     font-size: 25px;
   }
@@ -67,14 +72,14 @@
 }
   
 .icons img{
-    display: block;
+     display: block;
     float: right;
     clear: right;
     padding: 3px;
 }
 
-.icons .icon:hover{
-    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
+.icons img:hover{
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .work  h4{
