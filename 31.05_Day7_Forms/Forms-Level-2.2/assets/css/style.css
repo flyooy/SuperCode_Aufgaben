@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *Box_Style */
+.box{
+    margin: 15px 20px;
+    border: 1px solid black;
+    position: relative; 
+}
+
+.box_inside_position{
+    padding: 15px;
+}
+
+/* * Button position */
+.btn_position{
+display: block;
+margin: 7px 5px 1px 0;
+}
+
+/* *Style_Button */
+input[type="reset"], input[type="submit"]{
+    padding: 2px;
+}
+
+/* *  Text in Border setzen */
+.authentication_title{
+    position: absolute; 
+    top: -13px; 
+    background-color: white; 
+    padding: 0 9px; 
+}
+
