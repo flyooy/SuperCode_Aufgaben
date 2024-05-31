@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* * Style_Form */
+
+  .style_box{
+    text-align: center;
+   width: 40%;
+    margin: 45vh 30vw;
+    display: block;
+  }
+
+  .style_form{
+    background-color: rgba(128, 128, 128, 0.1);
+    display: block;
+  }
+
+  .style_form label, textarea, input{
+    display: block;
+    margin: auto auto;
+    padding: 7px;
+    width: 90%;
+  }
+  
+  /* *Style h1 */
+
+  .style_box_text h1{
+    background-color:#43D1AF ;
+    padding: 12px;
+    color: white;
+  }
+
+  /* *Textarea */
+
+  textarea{
+    resize: vertical; 
+    min-width: 50%;
+  }
+
+  /* * Style_Submit */
+
+  input[type="submit"] {
+    background-color: #43D1AF; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    margin: 10px 0 10px 0;
+    cursor: pointer; 
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #2EBC99;
+}
