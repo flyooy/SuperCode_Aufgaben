@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* *Ganze Formular Styling */
+
+.box{
+  
+   padding: 10px; 
+   margin: 25vh 30vw;
+  
+}
+
+.border_box{
+    border: 1px solid rgba(128, 128, 128, 0.093); 
+}
+
+/* *Head-Box Style */
+
+.head_box{
+    background-color: rgba(53, 142, 214, 0.95);
+    padding: 13px 5px 10px 25px;
+    color: white;
+    text-align: left;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0px;
+    
+}
+
+/* * Eder Form Styling 1-3*/
+
+.form_style{
+    margin: 0 10px;
+    background-color: rgba(128, 128, 128, 0.047); 
+    padding: 5% 10%;
+    border-radius: 12px;
+    
+}
+
+ .box h3{
+    color:  rgba(53, 142, 214, 0.95);
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 2px;
+}
+
+.name-container{
+    
+    width: 100%;
+
+}
+
+.form_style label{
+    color: gray;
+}
+
+.form_style input{
+    width: 100%;
+    box-shadow:  1px rgba(128, 128, 128, 0.061);
+    margin-bottom: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    padding: 8px; 
+}
+
+/* * Submit + Checkbox */
+
+input[type="submit"] {
+    
+    background-color: rgba(53, 142, 214, 0.95);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    border: none; 
+    cursor: pointer; 
+    margin: 10px 7px 10px;
+}
+
+
+.btn_position{
+    margin: 0px 25px 0px 25px;
+}
+
+.checkbox_position {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    white-space: nowrap;
+    margin-right: 13px; 
+
+  
+}
+
+.checkbox_position input[type="checkbox"] {
+    margin-right: 2px; 
+    
+}
+
+.btn_checkbox_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn_checkbox_container input[type="submit"] {
+        background-color: rgba(53, 142, 214, 0.95);
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+}
+
+/* * IMG fur Zahlen 1-3 */
+
+.numbered-heading_1::before{
+    
+        content: "";
+        background-image: url(../img/img1.jpg);
+        background-color: rgba(53, 142, 214, 0.95);
+        background-size: cover;
+        color: white;
+        width: 20px; 
+    height: 20px; 
+    display: inline-block;
+        position: relative;
+        right: 15px;
+        
+    }
+
+.numbered-heading_2::before{
+    
+        content: "";
+        background-image: url(../img/img2.jpg);
+        background-color: rgba(53, 142, 214, 0.95);
+        background-size: cover;
+        color: white;
+        width: 20px; 
+    height: 20px; 
+    display: inline-block;
+        position: relative;
+        right: 15px;
+        
+    }
+
+.numbered-heading_3::before{
+    
+        content: "";
+        background-image: url(../img/img3.jpg);
+        background-color: rgba(53, 142, 214, 0.95);
+        background-size: cover;
+        color: white;
+        width: 20px; 
+    height: 20px; 
+    display: inline-block;
+        position: relative;
+        right: 15px;
+        
+    }
