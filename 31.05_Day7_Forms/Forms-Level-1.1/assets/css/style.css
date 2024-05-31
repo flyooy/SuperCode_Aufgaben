@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* * Style_form */
+
+.form_size{
+    margin: 45px 25vh;
+    max-width: 600px;
+}
+
+.form{
+    display: block;  
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+}
+/* * Style_Name */
+.name-container {
+    display: inline-block;
+    width: 48.5%;
+    vertical-align: top;
+}
+
+.name-container + .name-container {
+    margin-left: 2%; 
+}
+
+/* * Style_Submit */
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* * Stern nach Worte fur required */
+
+.required::after {
+    content: "*";
+    color: red;
+}
