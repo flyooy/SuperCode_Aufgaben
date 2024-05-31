@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /* Полная высота окна просмотра */
+    display: grid; /* Используем grid для центрирования */
+    place-items: center; /* Центрирование контента */
+    background-color: #33; /* Цвет фона */
+}
+
+.tabs-container {
+    width: 400px;
+}
+
+.tabs {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+input[type="radio"]:hover+ label{
+    background-color: rgb(30, 70, 30);
+    color: white;
+}
+
+/* Скрыть радиокнопки */
+input[type="radio"] {
+    display: none;
+}
+
+/* Стили для вкладок */
+.tabs label {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(11, 11, 40, 0.94);
+    color: white;
+    margin-right: -1px;
+}
+
+/* Стили для активной вкладки */
+input[type="radio"]:checked + label {
+    background-color: rgba(63, 168, 63, 0.975);
+}
+
+/* Скрыть все секции */
+/* .tab-content {
+    display: none;
+} */
+
+/* Показать активную секцию */
+#signUpTab:checked ~ .tab-contents #signUpContent,
+#registrationTab:checked ~ .tab-contents #registrationContent {
+    display: block;
+}
+
+/* Стили для секций */
+.tab-content {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgba(11, 11, 40, 0.94);
+}
+
+.tab-content h2 {
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(63, 168, 63, 0.975);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.btn:active {
+    transform: translateY(1px); /* Небольшое смещение кнопки вниз при нажатии */
+    box-shadow: none; /* Убираем тень при нажатии */
+}
+/* Показать активную секцию */
+#signUpTab:checked ~ .tab-content#signUpContent,
+#registrationTab:checked ~ .tab-content#registrationContent {
+    display: block;
+}
+
+.tab-content input[type="text"],
+.tab-content input[type="email"],
+.tab-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Граница */
+    background-color: rgba(20, 20, 50, 0.8); /* Темный фон */
+    color: #fff; /* Белый цвет текста */
+}
+
+.tab-content label {
+    color: white;
+}
+.inline-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+ 
+
+/* Показать активную секцию содержимого вкладок */
+#registrationTab:checked ~ .tabs #registrationContent {
+    display: block;
+}
+
+#signUpTab:checked ~ .tabs #signUpContent {
+    display: block;
+}
+.inline-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px; /* Добавляем небольшой отступ между строками */
+}
+
+
+.inline-fields input {
+    flex: 1; /* Растягиваем элементы внутри flex-контейнера */
+}

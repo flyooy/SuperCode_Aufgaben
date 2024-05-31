@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="tabs-container">
+        <div class="tabs">
+            <input class="tabs_style" type="radio" id="signUpTab" name="tab" checked>
+            <label for="signUpTab">Sign Up</label>
+
+            <input type="radio" id="registrationTab" name="tab">
+            <label for="registrationTab">Registration</label>
+        </div>
+
+        <div id="signUpContent" class="tab-content">
+            <h2>Welcome back!</h2>
+            <form>
+                <!-- Поля формы для Sign Up -->
+                <input type="email" id="email" name="email" placeholder="Email"><br><br>
+                <input type="password" id="password" name="password" placeholder="Password"><br><br>
+                <button type="submit" class="btn">Log in</button>
+            </form>
+        </div>
+
+        <div id="registrationContent" class="tab-content">
+            <h2>Sign Up for Free</h2>
+            <form>
+                <!-- Поля формы для Registration -->
+                <div class="inline-fields">
+                <input type="text" id="fname" name="fname"placeholder="First Name" >
+                <input type="text" id="sname" name="sname"placeholder="Second Name" >
+            </div>
+                <input type="email" id="reg_email" name="email"placeholder="Email"><br><br>
+                <input type="password" id="reg_password" name="password" placeholder="Password"><br><br>
+                <button type="submit" class="btn">Get Started</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
