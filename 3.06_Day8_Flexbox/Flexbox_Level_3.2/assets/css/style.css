@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Lato;
+    src: url("/assets/fonts/Lato/Lato-Regular.ttf");
+}
+
+html{
+    font-family: Lato, Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! Header */
+
+header nav{
+    height: 55px;
+    display:flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav div{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+   
+}
+
+header nav a{
+    margin-top: 12px;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Styling nur Forever mit logo_img */
+.forever{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 64px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    height: 45px;
+}
+
+.forever::before{
+    content: "";
+    background-image: url("../img/logo.png.png");
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px; 
+    height: 20px; 
+}
+
+/* Styling andere Links */
+
+.nav-links {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 8px;
+    gap: 15px; 
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-top: 8px;
+    margin-right: 64px;
+}
+
+/* ! Main */
+
+main{
+    background-color:#D9E8E5 ;
+    padding: 80px 160px;
+}
+
+.rings_container{
+  
+  color: rgba(0,0,0,.8);
+  
+}
+
+/* Div mit IMG */
+.img_flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px ;
+    align-items: center;
+justify-content: space-around;
+background-size: cover;
+margin: auto 108px 188px;
+}
+
+.img_flex img {
+    margin: 16px; 
+}
