@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Raleway;
+    src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+html{
+    font-family:Raleway;
+    letter-spacing: 1px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* !Header */
+
+header nav{
+   
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+header nav .logo{
+    margin: 0px 186px;
+    font-size: 17px;
+}
+
+
+header nav a{
+    color:#666666 ;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-shadow: 1px 1px 3px rgba(2, 6, 45, 0.745); 
+}
+
+
+header nav .ul_flex{
+    font-size: 12px;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+   
+}
+
+/* ! Section */
+
+main section{
+
+    height: 100vh;
+    background-image: url("../img/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+main section div{
+  
+    text-align: center;
+    padding: 21%;
+
+}
+
+main section div h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 300;
+}
+
+main section div p{
+    margin: 40px 45px 65px;
+    color: white;
+    font-weight: 200;
+}
+
+/* Button */
+
+.ReadMore{
+    margin: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #745CF9;
+    padding: 22px 70px; 
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s,background-color 0.3s;
+}
+
+.ReadMore:hover{
+    background-color: #634af2;
+}
+
+.DowloadNow{
+    
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 20px 48px; 
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s,background-color 0.3s;
+}
+
+.DowloadNow:hover{
+    background-color:white;
+    color: rgba(2, 6, 35, 0.747);
+}
