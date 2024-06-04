@@ -143,8 +143,8 @@ margin: 3% 6%;
 .reimagining_flex div{
   padding: 4px 5px;
   margin: 1% 1%;
-  width: 450px;
-  height: auto;
+  width: 490px;
+  height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -164,9 +164,169 @@ width: 15%;
 }
 .reimagining_flex div .text_p{
   margin: 3% 0 10%;
-  width: 100%;
+  
   
 }
+.kickstart_flex {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.kickstart .icon {
+width: 4%;
+margin: 7% 10% 1%;
+}
 
+.kickstart_flex .Capitel_h1{
+  font-family: Gothic-Regular;
+  font-size: 2.9rem;
+  width: 60%;
+  margin: 1% 10% 1%;
+}
 
+.kickstart_flex .text_p{
+  margin: 2% 10%;
+  width: 70%;
+
+}
+.kickstart_flex .widget{
+margin: 10% 15% 0 -45%;
+width: 95%;
+box-shadow: 12px 15px 2px rgba(18, 125, 79, 0.923); 
+border-radius: 14px;
+}
+
+.kickstart .kickstart_flex .foto_2 {
+  margin: 5% 30%;
+width: 90%;
+}
+
+.kickstart .kickstart_flex .widget_2 {
+text-align: left;
+margin: 3% 13%;
+width: 70%;
+}
+
+.kickstart .kickstart_flex .widget_text_2{
+  width: 96%;
+}
+
+.help_us .reimagining_flex .Capitel_h4{
+  text-align: left;
+
+  font-family: Cousine-Regular;
+  color: black;
+}
+
+.help_us .reimagining_flex .text_p{
+  text-align: left;
+  font-family: Cousine-Regular;
+  color:#303031;
+  margin: 2% 3%;  
+}
+
+.help_us .inline_text{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* ! */
+
+.help_us .inline_text .aut {
+  margin: 0 -15% 0 -160px;
+  background-color: #71A894;
+  font-size: 0.9rem;
+  border-radius: 15px;
+  padding: 3% 6%;
+  color: white;
+}
+.help_us .inline_text .apply{
+  margin: 0 -150px 0 -25%;
+  font-family: Cousine-Regular;
+}
+
+.help_us .btn_view{
+  display: flex;
+  background-color: #303031;
+  color: white;
+  padding: 1.5% 2%;
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin: 3% 55% 3% 45%;
+  width: 10%;
+}
+
+.img_punkt img{
+  margin-bottom: 3%;
+}
+
+footer .Model_flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 85px;
+}
+
+footer img{
+  margin: 3% -6% 5% -2%;
+  width: 75%;
+}
+
+footer .Model_flex .Capitel_h1{
+  font-family: Gothic-Regular;
+  font-size: 2.9rem;
+  width: 82%;
+  margin-bottom: 7%;
+  color: #303031;
+}
+
+footer .Model_flex .text_p{
+color: #66645E;
+margin-bottom: 7%;
+}
+
+footer .Model_flex div .btn{
+  text-decoration: none;
+  color: white;
+  background-color: #71A894;
+  border-radius: 12px;
+  padding: 2% 4%;
+  display: inline-block; 
+text-align: center; 
+line-height: 35px; 
+margin-bottom: 10%;
+}
+
+footer nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 7%;
+  align-items: center;
+}
+
+footer nav div{
+    width: 70vw;
+    margin-right: -40%;
+}
+
+footer nav a{
+  margin: 0 15px 0 5px;
+  padding: 3% 1%;
+  text-decoration: none;
+  color:#303031;
+}
+
+footer nav a:hover {
+  color: #71A894;
+}
+
+footer nav h2{
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+  
+}
