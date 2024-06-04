@@ -1,0 +1,172 @@
+  @import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: Cousine-Regular;
+    src: url("../fonts/Cousine/Cousine-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+    font-family: Gothic-Regular;
+    src: url("../fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+  }
+
+  html{
+    font-family: Montserrat;
+    font-size: 0.9rem;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  /* !Header */
+
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+    align-items: center;
+  }
+
+  header nav div{
+      width: 70vw;
+      margin-right: -20%;
+  }
+
+  header nav a{
+    margin: 0 15px 0 5px;
+    padding: 3% 1%;
+    text-decoration: none;
+    color:#303031;
+  }
+
+  header nav a:hover {
+    color: #71A894;
+  }
+
+  header nav h2{
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+    
+  }
+  
+  header nav h2::before{
+    content: "";
+    background-image: url("../img/Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 46px;  
+    height: 46px;
+    margin-top: 5%;
+    margin-right: 7px;
+    margin-left: 19px;
+    vertical-align: middle;
+
+  }
+
+  header .Model_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 85px;
+  }
+
+  header img{
+    margin: 2%;
+    width: 55%;
+  }
+
+  header .Model_flex .Capitel_h1{
+    font-family: Gothic-Regular;
+    font-size: 2.9rem;
+    width: 82%;
+    margin-bottom: 7%;
+    color: #303031;
+  }
+
+  header .Model_flex .text_p{
+  color: #66645E;
+  margin-bottom: 7%;
+  }
+
+  header .Model_flex div .btn{
+    text-decoration: none;
+    color: white;
+    background-color: #71A894;
+    border-radius: 12px;
+    padding: 2% 4%;
+    display: inline-block; 
+  text-align: center; 
+  line-height: 35px; 
+  }
+  
+    /* !Main */
+
+  section .Capitel_box h1{
+    text-align: center; 
+    margin: 12% 3% 2% 3% ;
+    font-family: Gothic-Regular;
+    font-size: 2.9rem;
+   
+    }
+
+  section .Capitel_box .text_p{
+    margin-left: 22%;
+    margin-bottom: 3%;
+    text-align: center; 
+    width: 56%;
+    }
+    
+
+    /* !Reimagining Block */
+
+.reimagining_flex{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 3% 6%;
+}
+
+.reimagining_flex div{
+  padding: 4px 5px;
+  margin: 1% 1%;
+  width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+text-align: center;
+align-items: center;
+border: 2px solid rgba(128, 128, 128, 0.259); 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.reimagining_flex div img{
+  margin: 6% 3%;
+width: 15%;
+}
+
+.reimagining_flex div h4{
+  margin: 3%;
+}
+.reimagining_flex div .text_p{
+  margin: 3% 0 10%;
+  width: 100%;
+  
+}
+
+
+
