@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+@font-face {
+    font-family: Rock_Salt;
+    src: url("../fonts/Rock_Salt/RockSalt-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+html{
+    font-family: Nunito;
+}
+
+
+
+
+
+footer{
+background-color: #242424;
+}
+
+footer h2{
+    font-size: 1rem;
+    color: white;
+    padding: 4%;
+    text-align: center;
+}
+
+footer .Email, footer .Email_btn{
+    background-color:white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 90vw;
+    height: 6vh;
+    margin: 0 auto;
+    padding: 2% 5%;
+    
+}
+form {
+    display: flex; /* Устанавливаем элементы формы внутри контейнера flex */
+    flex-direction: column;
+  
+}
+footer .Email, .Email_btn {
+    margin-bottom: 5px; /* Уменьшаем расстояние между элементами */
+}
+
+footer .Email_btn {
+    margin-top: -40px;
+   background-color: #DF8480;
+   color: white;
+}
+
+
+/* Stile für kleine Bildschirme (bis 600 px) */
+@media only screen and (max-width: 600px) {
+
+    header{
+        padding-bottom: 10vh;
+        background-image: url("../img/Back_Dog_small.png");
+         background-size: cover; 
+       background-size: 100%;
+        background-repeat: no-repeat;
+        height: 88vh;
+    }
+
+    header .Dog_img{
+        display: none;
+    }
+    
+    header h3{
+        color: #DF8480;
+         float: right;
+        width: 46%;
+        text-align: right; 
+    }
+    header h2{
+        text-align: center;
+       font-family: Rock_Salt;
+       margin-bottom: 3%;
+    }
+
+    .How_work{
+        text-align: center;
+        background-color:#DF8480 ;
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+
+    .App h2 span, .kitchen h2 span, .delivers h2 span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.3rem;
+        color: #DF8480;
+    }
+    .App h2, .kitchen h2, .delivers h2{
+        padding: 1%;
+        margin: 9%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .Menu .menu_img{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .Menu .text_menu{
+        text-align: center;
+        padding: 4%;
+        margin-bottom: 5%;
+    }
+
+    footer .icons{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        width: auto; 
+        margin: 20px 40px;
+        padding: 0;
+    }
+
+    footer .icons img{
+        
+        width: 55px;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer section p{
+        text-align: center;
+        color: white;
+    }
+
+    
+
+
+}
+
+/* Stile für mittlere Bildschirme (601 px bis 900 px) */
+@media only screen and (min-width: 601px) and (max-width: 900px)
+{
+    header h3{
+        color: #DF8480;
+        float: right;
+        text-align: right; 
+        width: 26%;
+    }
+    header{
+        padding-bottom: 10vh;
+        background-image: url("../img/Back_Dog_small.png");
+         background-size: cover; 
+       background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    header .Dog_img{
+        display: none;
+    }
+
+    header h2{
+        text-align: center;
+       font-family: Rock_Salt;
+    }
+       .How_work{
+        text-align: center;
+        background-color:#DF8480 ;
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+
+    .nubers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .App, .kitchen, .delivers {
+        display: flex;
+        align-items: baseline;
+        margin: 8%;
+    }
+
+    .App h2 span, .kitchen h2 span, .delivers h2 span{
+        font-size: 3.3rem;
+    color: #DF8480;
+    margin-right: 10px;
+    }
+    .App h2, .kitchen h2, .delivers h2{
+        display: flex;
+        align-items: baseline; 
+        font-size: 1.1rem;
+        text-align: center;
+        
+    }
+    .Menu .text_menu{
+        text-align: center;
+        padding: 4%;
+        margin-bottom: 5%;
+    }
+
+    .Menu .menu_img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        will-change: 100%;
+        
+    }
+
+    footer .icons{
+        display: flex;
+        text-align: center;
+        
+        align-items: center;
+        width: auto; 
+        margin: 20px 40px;
+      
+    }
+
+    footer .icons img{
+        
+        width: 55px;
+        margin: 2%;
+        padding: 0;
+    }
+
+   footer .icons_and_p{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   }
+    footer section p{
+        text-align: right;
+        color: white;
+    }
+   
+}
+       
+/* Stile für große Bildschirme (901 px bis 1200 px) */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    header h2{
+        text-align: center;
+       font-family: Rock_Salt;
+       padding: 2%;
+    }
+    header .Lieferando{
+        height: 499px;
+        width: 450px;
+        background-color: #DF8480;
+    }
+
+    header .wrapper_header{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    header h3{
+        color: white;
+        float: right;
+        text-align: right; 
+        font-size: 2rem;
+        width: 45%;
+        padding: 5%;
+    }
+
+    .How_work{
+        text-align: center;
+        font-size: 1.7rem;
+        color: #DF8480;
+    }
+
+    footer .icons_and_p{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+       }
+       
+        footer section p{
+            text-align: right;
+            color: white;
+        }
+       
+}
+/* Stile für extra große Bildschirme (größer als 1201 px) */
+@media only screen and (min-width: 1201px) {
+  
+}
