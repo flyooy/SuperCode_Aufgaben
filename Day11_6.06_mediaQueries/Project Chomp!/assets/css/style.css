@@ -19,7 +19,7 @@ img{
 html{
     font-family: Nunito;
 }
-
+        
 
 
 
@@ -262,7 +262,7 @@ footer .Email_btn {
 }
        
 /* Stile für große Bildschirme (901 px bis 1200 px) */
-@media only screen and (min-width: 901px) and (max-width: 1200px) {
+@media only screen and (min-width: 901px)  {
     header h2{
         text-align: center;
        font-family: Rock_Salt;
@@ -293,20 +293,120 @@ footer .Email_btn {
         font-size: 1.7rem;
         color: #DF8480;
     }
+    .numbers{
+        
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
 
+    }
+    .numbers div{
+        width: 360px; 
+        height: auto;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px; 
+    margin: 20px;
+    }
+
+    .App h2 span, .kitchen h2 span, .delivers h2 span{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 3.3rem;
+        color: #DF8480;
+        gap: 20px ;
+    }
+
+    .App h2, .kitchen h2, .delivers h2{
+        padding: 5%;
+        margin: 9%;
+        font-size: 1.1rem;
+        text-align: center;
+       
+    }
+    .Menu h2{
+        
+        margin-bottom: 3%;
+    }
+    .Menu article{
+        margin-bottom: 2%;
+    }
+    .Menu article .menu_content {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0 10%;
+    }
+    .Menu article .menu_img {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        margin-right: 10px;
+       
+    }
+    .Menu article .menu_img div,
+.Menu article .text_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+    .Menu article .menu_img img {
+       max-width: 100%; 
+    max-height: 100%; 
+        object-fit: cover; 
+    }
+    }
+
+    .Menu article .text_menu {
+        background-color: #DF8480;
+        color: white;
+        height: auto;
+        padding: 1%;
+        align-items: center; 
+    flex: 1; 
+    box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+         width: 200px; 
+    height: 250px;
+    flex-shrink: 0;
+   
+    }
+#email,
+#submit{ 
+    
+    width: 30vw;
+    height: 2vh;
+}
+    footer h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+}
     footer .icons_and_p{
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+        
        }
        
         footer section p{
             text-align: right;
             color: white;
         }
+
        
-}
-/* Stile für extra große Bildschirme (größer als 1201 px) */
-@media only screen and (min-width: 1201px) {
-  
 }
