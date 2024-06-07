@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Black.ttf");
+}
+
+body{
+    background-image: url("../img/background.avif");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section {
+    position: relative;
+}
+main section h2{
+    font-family: Poppins;
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    color: rgb(87, 78, 241);
+}
+main section p{
+    font-family: Poppins;
+    position: absolute;
+    top: 150px;
+    right: 180px;
+    color: rgb(87, 78, 241);
+}
