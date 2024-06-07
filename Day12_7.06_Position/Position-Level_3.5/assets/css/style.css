@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-image: url("../img/Ride.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+header h3{
+    position: absolute;
+    top: 310px;
+   left: 250px;
+   font-size: 2rem;
+}
+
+header p{
+    position: absolute;
+    top: 370px;
+    left: 180px;
+   font-size: 1.2rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.846);
+    color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: background-color 0.3s ease; 
+}
+
+header nav h2{
+margin-left: 3%;
+}
+
+header nav.fixed {
+    position: fixed; /* Fixed position when scrolled */
+    top: 0; /* At the top of the page */
+    bottom: auto; /* Override bottom positioning */
+    background-color: rgba(0, 0, 0, 0.5); /* More transparent */
+}
+
+header nav div{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 6%;
+}
+
+header nav a{
+text-decoration: none;
+color: white;
+padding: 5%;
+margin: 0 10px;
+}
+
+main .locations h2{
+text-align: center;
+margin: 7% 5% 1% 5%;
+font-size: 2rem;
+}
+main .locations .wrapper_img{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 3% 3% 6%;
+    align-items: center;
+}
+
+main .locations .wrapper_img img{
+    width: 90%;
+    padding: 2%;
+}
+
+
+main .tour_dates h3{
+    text-align: center;
+    margin: 3%;
+}
+
+main .tour_dates p{
+    padding: 5px;
+    color: grey;
+    margin-left: 7%;
+}
+main .tour_dates p .red{
+    color: rgba(255, 0, 0, 0.383);
+}
+
+main .tour_dates p .green{
+    color: rgba(0, 128, 0, 0.397);
+}
+
+main .tour_dates{
+    margin-bottom: 2%;
+}
