@@ -1,0 +1,91 @@
+
+
+section h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ section article div {
+    
+    border: 1px solid black;
+    
+    
+}  
+section article div:hover{
+    box-shadow: 1px 8px 7px rgba(0, 0, 0, 0.186);
+}
+
+section .First_Tile:hover  ~  .Second_Tile{
+    
+        box-shadow: 1px 8px 7px rgba(0, 0, 0, 0.186);
+
+   
+}
+
+section .First_Tile{
+    
+    margin-right: 22px;
+    margin-bottom: -2px;
+    transform: rotate(-20deg);
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px; 
+}
+
+section .Second_Tile{
+    transform: rotate(-20deg);
+    width: 60px;
+    height: 30px;
+    border-bottom-left-radius: 50px; 
+    border-bottom-right-radius: 50px; 
+}
+
+.colorA{
+    background-color: aqua;
+}
+
+.colorR{
+    background-color: red;
+}
+
+.colorG{
+    background-color: green;
+}
+
+.colorV{
+    background-color: violet;
+}
+
+.colorY{
+    background-color: yellow;
+}
+
+.colorGrey{
+    background-color: grey;
+}
+
+.colorDB{
+    background-color: blue;
+}
+
+.colorLB{
+    background-color: rgb(0, 102, 255);
+}
